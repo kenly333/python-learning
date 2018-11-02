@@ -18,3 +18,20 @@ print(c)
 print('\n3 变量所指的对象类型------------------------------')
 a, b, c, d = 20, 5.5, True, 4+3j
 print(type(a), type(b), type(c), type(d))
+
+print('\n4 isinstance 和 type 的区别------------------------------')
+class A:
+    pass
+
+class B(A):
+    pass
+
+print(isinstance(A(), A))  # returns True
+print(type(A()) == A )    # returns True
+print(isinstance(B(), A))   # returns True
+print(type(B()) == A)        # returns False
+
+print('\n5 删除单个或多个对象------------------------------')
+var1 = 1
+var2 = 10
+del var1, var2
