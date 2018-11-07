@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     try:
         # 请根据实际情况改变MQTT代理服务器的IP地址
-        client.connect("172.16.210.150", 1883, 60)
+        client.connect("192.168.2.2", 1883, 60)
         client.loop_forever()
     except KeyboardInterrupt:
         client.disconnect()
