@@ -1,8 +1,8 @@
 MQTT broker
 
 1 安装
-$ sudo apt install mosquitto
-$ sudo apt install mosquitto-clients
+$ sudo apt install mosquitto -y
+$ sudo apt install mosquitto-clients -y
 
 $ mosquitto -v
 

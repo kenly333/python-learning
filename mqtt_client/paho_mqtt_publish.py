@@ -1,7 +1,7 @@
 import paho.mqtt.publish as publish
 import time
 
-HOST = "172.16.210.150"
+HOST = "localhost"
 PORT = 1883
 
 
